@@ -1,0 +1,245 @@
+* { margin: 0; padding: 0; 
+    font-family: 'Ubuntu', sans-serif; }
+html, body, header, #container, #gridbox {
+    width: 100%;
+    height: 100%;
+}
+
+#botao-to-top {
+    display: none;
+}
+
+
+.cor-azul {
+    color: #003F63;
+}
+
+/* MENU PARA MOBILE */
+@media (max-width: 767.98px) { 
+    #fundo-menu {
+        background-color: #003f63cc;
+    }
+}
+
+
+/*********************
+Parte do inicio
+**********************/
+
+.nav-item {
+    margin: 10px;
+}
+
+/* Menu Fonte e cor*/
+.navbar-dark .navbar-brand {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .nav-item .nav-link {
+    color: white;
+}
+
+/* Background wallpaper cabeçalho */
+#background-wallpaper {
+    height: 100%;
+    background-position: top center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url('../img/bg-inicio.png');
+}
+
+#background-color {
+    height: 100%;
+    background-color: rgba(0, 63, 99, 0.89);
+}
+
+/* Grid de conteudo da parte inicial do site */
+.box-grid-imagem-leandro {
+    height: 100%;
+     width: 100%;
+     top: 0;
+     z-index: 0;
+}
+
+.imagem-leandro {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -1px;
+}
+
+.conteudo-lateral h1 {
+    font-size: 3.3em;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.conteudo-lateral h1, .conteudo-lateral h4 {
+    color: #D9D9D9;
+}
+
+.conteudo-lateral hr {
+    border: 3.4px solid;
+    max-width: 220px;
+}
+
+i {
+    font-size: 1.5em;
+}
+
+/*********************
+Parte do Sobre mim
+**********************/
+
+/* Background */
+#bg-wallpaper-about {
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-image: url('../img/bg-about.png');
+}
+
+#bg-color-about {
+    height: 100%;
+    background-color: rgba(48, 52, 53, 0.41);
+}
+
+.texto-sobre-mim p {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    color: white;
+    text-transform: uppercase;
+}
+
+i.noLogo {
+    font-size: 1em;
+}
+
+/*********************
+Parte do Portifolio
+**********************/
+
+/* Background */
+#bg-wallpaper-portfolio {
+    background-position: top center;
+    background-repeat: repeat-y;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-image: url('../img/bg-portifolio.png');
+}
+
+#bg-color-portfolio {
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.90);
+}
+
+
+.widthcem {
+    width: 100%;
+    max-width: 900px;
+}
+
+.secao-carrossel {
+    padding: 10px 40px;
+    background-color: #003F63;
+    border-radius: 10px;
+    display: inline-block;
+    align-self: center;
+}
+
+.imagem-carrossel {
+    margin: 10px;
+    width: 200px;
+
+}
+
+
+/*********************
+Parte do Orçamento
+**********************/
+
+.input-group .espacamento-input {
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+
+/*********************
+Parte do Rodapé
+**********************/
+
+
+/* Background wallpaper rodape */
+#bg-wallpaper-footer {
+    height: 100%;
+    background-position: bottom center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url('../img/bg-inicio.png');
+}
+
+#bg-color-footer {
+    height: 100%;
+    background-color: rgba(0, 63, 99, 0.89);
+}
+
+
+
+/*********************
+Parte de Animações
+**********************/
+
+@keyframes anima-cima {
+    from {
+      opacity: 0;
+      bottom: -30px;
+    }
+    to {
+      bottom: 0px;
+      opacity: 1;
+    }
+  }
+
+
+@keyframes anima-direita {
+    from {
+      opacity: 0;
+      left: -30px;
+    }
+    to {
+      left: 0px;
+      opacity: 1;
+    }
+}
+
+@keyframes anima-esquerda {
+    from {
+      opacity: 0;
+      right: -30px;
+    }
+    to {
+      right: 0px;
+      opacity: 1;
+    }
+}
+
+  .conteudo-lateral, .imagem-leandro {
+      animation-name: anima-cima;
+      animation-duration: 1s;
+      animation-timing-function: ease-out;
+  }
+
+  .texto-sobre-mim {
+    animation-name: anima-direita;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-play-state: paused;
+}
+
+.bloco-portifolio {
+    animation-name: anima-esquerda;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-play-state: paused;
+}
