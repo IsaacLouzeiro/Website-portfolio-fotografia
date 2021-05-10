@@ -113,19 +113,19 @@
                             <h2 class="text-warning text-center my-4 font-weight-bold">Quem sou eu?</h2>
 
                             <p class="text-justify">
-                                Me chamo Leandro e sou fotógrafo há dois anos, uma arte que além de me proporcionar um estilo de vida feliz e agradável, aumenta a auto estima das pessoas e se tornou minha profissão. Fico muito feliz em saber que além de trabalhar com isso, eu ajudo as pessoas a se sentirem mais amadas e bem vistas também por elas mesmas.
+                                Mussum Ipsum, cacilds vidis litro abertis. Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo! In elementis mé pra quem é amistosis quis leo. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis.
                             </p>
                             <br>
                             <p class="text-justify">
-                                Ultimamente estou me dedicando a ensaios fotográficos focado em três temas diferentes, dentre eles estão: Ensaio <u><i class="noLogo">feminino e masculino (externo)</i></u> e <u><i class="noLogo">esportes radicais</i></u>.
+                                Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo! Manduma pindureta quium dia nois paga.
                             </p>
                             <br>
                             <p class="text-justify">
-                                Acho muito interessante o processo pós fotográfico de nosso cérebro, que logo após visualizar uma foto nossa tem o costume de procura defeitos. Mas com uma bela fotografia e uma ótima pós produção, consegue enxergar mais qualidades do que defeitos, e isso automaticamente acaba aumentando nossa auto estima, e se ver pelo olhar de uma outra pessoa, uma nova perspectiva. Por isso acredito que ao menos uma vez na vida, todos os seres humanos deveriam fazer um ensaio fotográfico.
+                                Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Leite de capivaris, leite de mula manquis sem cabeça.
                             </p>
                             <br>
                             <p class="text-justify">
-                                Muito importante lembrar também, é que a fotografia é um ótimo investimento pra quem quer dar um novo visual nas suas redes sociais. Assim aumentando as chances de gerar mais seguidores e também um engajamento maior para com eles.
+                                Manduma pindureta quium dia nois paga. Aenean aliquam molestie leo, vitae iaculis nisl. In elementis mé pra quem é amistosis quis leo. Detraxit consequat et quo num tendi nada.
                             </p>
                             <br>
                         </div> <!-- // Caixa de texto falandro o sobre -->
