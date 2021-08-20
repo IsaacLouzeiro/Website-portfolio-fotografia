@@ -78,10 +78,11 @@
                                     <h4>Fotógrafo</h4>
 
                                     <ul class="nav rede-social"> <!-- Redes sociais -->
-                                        <li class="nav-item ml-0"><a href="#"><i class="fab fa-youtube text-warning"></i></a></li>
-                                        <li class="nav-item"><a href="#"><i class="fab fa-behance text-light"></i></i></a></li>
-                                        <li class="nav-item"><a href="#"><i class="fas fa-envelope text-warning"></i></a></li>
-                                        <li class="nav-item"><a href="#"><i class="fab fa-instagram text-light"></i></a></li>
+                                        <li class="nav-item ml-0"><a href="https://www.youtube.com/channel/UC67NlPr-CUQD_IWCsmGJhtA/videos" target="_blank"><i class="fab fa-youtube text-warning"></i></a></li>
+                                        <li class="nav-item"><a href="https://www.behance.net/leandrolouzeiro2" target="_blank"><i class="fab fa-behance text-light"></i></i></a></li>
+                                        <li class="nav-item"><a href="mailto:leandrolouzeiro66@gmail.com" target="_blank"><i class="fas fa-envelope text-warning"></i></a></li>
+                                        <li class="nav-item"><a href="https://www.instagram.com/louzeiro.l/" target="_blank"><i class="fab fa-instagram text-light"></i></a></li>
+                                        <li class="nav-item"><a href="https://www.linkedin.com/in/leandro-louzeiro-8a6b18195/" target="_blank"><i class="fa fa-linkedin-square text-warning"></i></a></li>
                                     </ul> <!-- // Redes sociais -->
                                 </div>
                                 
@@ -242,7 +243,10 @@
                                     </div>
                                 </div> <!-- // Seção Imagens Portifolio -->
                             </div> <!-- // TIPO DE FOTOGRAFIA -->
-                        <br><br><br>
+                            <br><br>
+                            <!-- Ir para mais fotografias -->
+                            <h4 class="mais-fotografias"><a href="https://www.behance.net/leandrolouzeiro2" class="text-warning" target="_blank">VER MAIS FOTOGRAFIAS</a></h4>
+                            <br><br>
                                     
                 </div> <!-- // Container -->
             </div> <!-- // Background cor -->
@@ -312,10 +316,11 @@
                         <div class="col-12 text-center mt-4"> <!-- Bloco de Rede Social -->
         
                             <ul class="nav rede-social d-inline-block align-self-center position-relative" style="z-index: 99999999;"> <!-- Redes sociais -->
-                                <li class="nav-item ml-0 d-inline-block"><a href="#"><i class="fab fa-youtube text-warning"></i></a></li>
-                                <li class="nav-item d-inline-block"><a href="#"><i class="fab fa-behance text-light"></i></i></a></li>
-                                <li class="nav-item d-inline-block"><a href="#"><i class="fas fa-envelope text-warning"></i></a></li>
-                                <li class="nav-item d-inline-block"><a href="#"><i class="fab fa-instagram text-light"></i></a></li>
+                                <li class="nav-item ml-0 d-inline-block"><a href="https://www.youtube.com/channel/UC67NlPr-CUQD_IWCsmGJhtA/videos" target="_blank"><i class="fab fa-youtube text-warning"></i></a></li>
+                                <li class="nav-item d-inline-block"><a href="https://www.behance.net/leandrolouzeiro2" target="_blank"><i class="fab fa-behance text-light"></i></i></a></li>
+                                <li class="nav-item d-inline-block"><a href="mailto:leandrolouzeiro66@gmail.com" target="_blank"><i class="fas fa-envelope text-warning"></i></a></li>
+                                <li class="nav-item d-inline-block"><a href="https://www.instagram.com/louzeiro.l/" target="_blank"><i class="fab fa-instagram text-light"></i></a></li>
+                                <li class="nav-item d-inline-block"><a href="https://www.linkedin.com/in/leandro-louzeiro-8a6b18195/" target="_blank"><i class="fa fa-linkedin-square text-warning"></i></a></li>
                             </ul> <!-- // Redes sociais -->
         
                         </div> <!-- // Bloco de Rede Social -->

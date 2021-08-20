@@ -16,8 +16,20 @@ html, body, header, #container, #gridbox {
 
 /* MENU PARA MOBILE */
 @media (max-width: 767.98px) { 
-    #fundo-menu {
+    #navegacao {
         background-color: #003f63cc;
+        padding: 0 1em 1em 1em;
+        margin-top: 1em;
+    }
+    .navbar-toggler:focus{
+    outline: thin dotted;
+        outline: 0px auto -webkit-focus-ring-color;
+        outline-offset: 0px;
+    }
+    .navbar-toggler:focus {
+    outline: thin dotted;
+        outline: 0px auto -webkit-focus-ring-color;
+        outline-offset: 0px;
     }
 }
 
@@ -154,6 +166,15 @@ Parte do Portifolio
 
 }
 
+/* link mais fotografias */
+.mais-fotografias {
+    font-size: 1em;
+}
+
+.mais-fotografias a {
+    font-weight: bold;
+    text-decoration: underline;
+}
 
 /*********************
 Parte do Orçamento
