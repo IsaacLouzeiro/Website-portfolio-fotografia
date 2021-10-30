@@ -212,7 +212,7 @@ Parte do Rodapé
 Parte de Animações
 **********************/
 
-@keyframes anima-cima {
+/* @keyframes anima-cima {
     from {
       opacity: 0;
       bottom: -30px;
@@ -244,13 +244,13 @@ Parte de Animações
       right: 0px;
       opacity: 1;
     }
-}
+} */
 
-  .conteudo-lateral, .imagem-leandro {
+  /* .conteudo-lateral, .imagem-leandro {
       animation-name: anima-cima;
       animation-duration: 1s;
       animation-timing-function: ease-out;
-  }
+  } */
 
   /* .texto-sobre-mim {
     animation-name: anima-direita;
