@@ -27,15 +27,15 @@ if(scroll < 146 ) $("#botao-to-top").css("display", "none");
 // if(scroll < 146 ) $("#texto-sobre-mim").css("animation-play-state", "paused");
 // });
 
-$("#texto-sobre-mim").offset().top
+// $("#texto-sobre-mim").offset().top
 
-$(document).scroll( function() {
+// $(document).scroll( function() {
 
-if ($("#texto-sobre-mim").offset().top > $(document).scrollTop()) $("#texto-sobre-mim").css("animation-play-state", "running");
+// if ($("#texto-sobre-mim").offset().top > $(document).scrollTop()) $("#texto-sobre-mim").css("animation-play-state", "running");
 
-if ($("#texto-sobre-mim").offset().top < $(document).scrollTop()) $("#texto-sobre-mim").css("animation-play-state", "paused");
+// if ($("#texto-sobre-mim").offset().top < $(document).scrollTop()) $("#texto-sobre-mim").css("animation-play-state", "paused");
 
-});
+// });
 
 // PORTIFOLIO
 var logo = $("#bloco-portifolio");

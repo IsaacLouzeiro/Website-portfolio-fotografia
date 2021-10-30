@@ -121,7 +121,8 @@ Parte do Sobre mim
     max-width: 900px;
     margin: 0 auto;
     color: white;
-    text-transform: uppercase;
+    font-size: 1.1em;
+    /* text-transform: uppercase; */
 }
 
 i.noLogo {
@@ -251,16 +252,16 @@ Parte de Animações
       animation-timing-function: ease-out;
   }
 
-  .texto-sobre-mim {
+  /* .texto-sobre-mim {
     animation-name: anima-direita;
     animation-duration: 1s;
     animation-timing-function: ease-out;
     animation-play-state: paused;
-}
+} */
 
-.bloco-portifolio {
+/* .bloco-portifolio {
     animation-name: anima-esquerda;
     animation-duration: 1s;
     animation-timing-function: ease-out;
     animation-play-state: paused;
-}
+} */
