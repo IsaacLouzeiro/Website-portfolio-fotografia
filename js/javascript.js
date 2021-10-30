@@ -38,9 +38,9 @@ if(scroll < 146 ) $("#botao-to-top").css("display", "none");
 // });
 
 // PORTIFOLIO
-var logo = $("#bloco-portifolio");
-$(document).scroll( function() {
-var scroll = $(document).scrollTop();
-if(scroll >= 700)  $("#bloco-portifolio-anima").css("animation-play-state", "running");
-if(scroll < 146 ) $("#bloco-portifolio-anima").css("animation-play-state", "paused");
-});
+// var logo = $("#bloco-portifolio");
+// $(document).scroll( function() {
+// var scroll = $(document).scrollTop();
+// if(scroll >= 700)  $("#bloco-portifolio-anima").css("animation-play-state", "running");
+// if(scroll < 146 ) $("#bloco-portifolio-anima").css("animation-play-state", "paused");
+// });
