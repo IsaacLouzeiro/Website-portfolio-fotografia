@@ -174,7 +174,14 @@ Parte do Portifolio
 
 .mais-fotografias a {
     font-weight: bold;
-    text-decoration: underline;
+    padding: .4em 1em;
+    border-radius: 10px;
+    background-color: #003F63;
+}
+
+.mais-fotografias a:hover {
+    text-decoration: none;
+    opacity: .8em;
 }
 
 /*********************
