@@ -38,6 +38,14 @@ html, body, header, #container, #gridbox {
 Parte do inicio
 **********************/
 
+#navegacao-principal.scrolled {
+    background-color: #003f63;
+}
+
+#navegacao-principal.scrolled .nav-item {
+    margin: 0 10px;
+}
+
 .nav-item {
     margin: 10px;
 }

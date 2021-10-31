@@ -34,42 +34,46 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
+    <!-- Barra de navegação -->
+    <div class="fixed-top" id="navegacao-principal">
+        <nav class="navbar navbar-expand-md navbar-dark py-4 container" style="z-index: 10000;">
+                        
+            <!-- Logo -->
+            <a href="#" class="navbar-brand text-warning">LEANDRO LOUZEIRO</a>
+        
+            <!-- Menu Hamburguer -->
+            <button class="navbar-toggler" data-toggle="collapse" 
+            data-target="#navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <!-- navegacao -->
+            <div class="collapse navbar-collapse" id="navegacao">
+                <ul class="navbar-nav ml-auto mx-auto" id="fundo-menu">
+                    <li class="nav-item mr-2">
+                        <a href="#" class="nav-link" id="cor">Início</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a href="#about" class="nav-link">Sobre</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a href="#portifolio" class="nav-link">Portifólio</a>
+                    </li>
+                    <li class="nav-item mr- d-md-none d-block">
+                        <a class="btn btn-outline-warning" href="#orcamento">Orçamento</a>
+                    </li>
+                </ul>
+            </div>
+    
+            <a class="btn btn-outline-warning d-none d-md-block" href="#orcamento">Orçamento</a>
+        </nav>
+    </div>
+    <!-- // Barra de navegação -->
+
     <header id="inicio"> <!-- Cabeçalho -->
         <div id="background-wallpaper"> <!-- Background imagem -->
             <div id="background-color"><!-- Background cor -->
             <div class="container position-relative" id="container"> <!-- Container -->
-                    <nav class="navbar navbar-expand-md navbar-dark py-4" style="z-index: 10000;"> <!-- Barra de navegação -->
-                    
-                        <!-- Logo -->
-                        <a href="#" class="navbar-brand text-warning">LEANDRO LOUZEIRO</a>
-                    
-                        <!-- Menu Hamburguer -->
-                        <button class="navbar-toggler" data-toggle="collapse" 
-                        data-target="#navegacao">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                
-                        <!-- navegacao -->
-                        <div class="collapse navbar-collapse" id="navegacao">
-                            <ul class="navbar-nav ml-auto mx-auto" id="fundo-menu">
-                                <li class="nav-item mr-2">
-                                    <a href="" class="nav-link" id="cor">Início</a>
-                                </li>
-                                <li class="nav-item mr-2">
-                                    <a href="#about" class="nav-link">Sobre</a>
-                                </li>
-                                <li class="nav-item mr-2">
-                                    <a href="#portifolio" class="nav-link">Portifólio</a>
-                                </li>
-                                <li class="nav-item mr- d-md-none d-block">
-                                    <a class="btn btn-outline-warning" href="#orcamento">Orçamento</a>
-                                </li>
-                            </ul>
-                        </div>
-            
-                        <a class="btn btn-outline-warning d-none d-md-block" href="#orcamento">Orçamento</a>
-                    </nav> <!-- // Barra de navegação -->
-
                     <section class="row box-grid-imagem-leandro position-absolute"> <!-- Secao de conteudo inicio -->
 
                         <div class="col-5 d-none d-md-block position-relative"> <!-- Imagem leandro -->
@@ -355,6 +359,19 @@
             </a>
         </div>
     </section> <!-- // Botao para subir ao topo -->
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- scroll change navbar -->
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $(".fixed-top");
+                $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
 
     <!-- AOS Animation JavaScript -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
