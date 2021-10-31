@@ -116,7 +116,7 @@ Parte do Sobre mim
 #bg-wallpaper-about {
     background-position: top center;
     background-repeat: no-repeat;
-    background-image: url('../img/bg-about.png');
+    background-image: url('../img/bg-about.webp');
 }
 
 #bg-color-about {
@@ -147,7 +147,7 @@ Parte do Portifolio
     background-repeat: repeat-y;
     background-size: 100%;
     background-attachment: fixed;
-    background-image: url('../img/bg-portifolio.png');
+    background-image: url('../img/bg-portifolio.webp');
 }
 
 #bg-color-portfolio {
@@ -213,7 +213,7 @@ Parte do Rodapé
     background-position: bottom center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-image: url('../img/bg-inicio.png');
+    background-image: url('../img/bg-inicio.webp');
 }
 
 #bg-color-footer {
