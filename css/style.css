@@ -201,6 +201,15 @@ Parte do Orçamento
     padding-bottom: 22px;
 }
 
+#enviar-email {
+    color: #003f63;
+    border: 2px solid #003f63;
+}
+#enviar-email:hover {
+    background-color: #003f63;
+    color: #fff;
+}
+
 
 /*********************
 Parte do Rodapé
