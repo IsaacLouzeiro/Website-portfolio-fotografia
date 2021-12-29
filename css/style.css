@@ -202,12 +202,13 @@ Parte do Orçamento
 }
 
 #enviar-email {
-    color: #003f63;
-    border: 2px solid #003f63;
+    color: #fff;
+    background-color: #003f63;
 }
 #enviar-email:hover {
-    background-color: #003f63;
-    color: #fff;
+    color: #003f63;
+    border: 2px solid #003f63;
+    background-color: #fff;
 }
 
 
